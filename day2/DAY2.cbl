@@ -37,19 +37,19 @@
 
                     EVALUATE TRUE 
                        WHEN RESULT = 1 OR RESULT = -2   
-                          ADD +6 TO SCORE-PART1
+                          ADD 6 TO SCORE-PART1
                        WHEN RESULT = 0                
-                          ADD +3 TO SCORE-PART1
+                          ADD 3 TO SCORE-PART1
                     END-EVALUATE           
                     ADD PCHOICE-ORD, +1 TO SCORE-PART1
 
                     EVALUATE PCHOICE-ORD ALSO OCHOICE-ORD
                        WHEN 0 ALSO 0
-                          ADD +3 TO SCORE-PART2
+                          ADD 3 TO SCORE-PART2
                        WHEN 0 ALSO 1 THROUGH 2
                           ADD OCHOICE-ORD TO SCORE-PART2
                        WHEN 1 ALSO 0 THROUGH 2
-                          ADD +3, OCHOICE-ORD, +1 TO SCORE-PART2
+                          ADD 3, OCHOICE-ORD, +1 TO SCORE-PART2
                        WHEN 2 ALSO 0 THROUGH 2
                           COMPUTE SCORE-PART2 = SCORE-PART2 + 6
                           + FUNCTION MOD((OCHOICE-ORD + 1), 3) + 1
