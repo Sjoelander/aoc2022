@@ -49,4 +49,4 @@
               SORT CALORIES-TABLE DESCENDING CALORIES-TABLE-SUM
            END-IF
            .
-        END PROGRAM DAY1.
+       END PROGRAM DAY1.

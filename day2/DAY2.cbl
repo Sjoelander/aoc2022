@@ -63,4 +63,4 @@
            DISPLAY SCORE-PART2
            
            STOP RUN.
-        END PROGRAM DAY2.
+       END PROGRAM DAY2.
