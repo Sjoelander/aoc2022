@@ -50,7 +50,6 @@
                           ADD +1 TO OVERLAPS-FULLY-COUNTER
                        END-IF
                     END-IF
-
               END-READ
            END-PERFORM
            
