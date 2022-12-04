@@ -1,5 +1,5 @@
 # aoc2022
-Advent of Code 2022 - Solutions in COBOL, HLASM &amp; Rexx
+Advent of Code 2022 - Solving in COBOL first and then in HLASM or Rexx when there's time
 
 * [Running COBOL with gnuCOBOL](https://gnucobol.sourceforge.io/)
 * [Running REXX with Regina Rexx](https://regina-rexx.sourceforge.io/)
