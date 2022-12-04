@@ -1,8 +1,5 @@
 /*REXX*/
-rcrdcnt = 0
-prtysum = 0
-prtysum2 = 0
-rucksacks.0 = 3
+rcrdcnt = 0; prtysum = 0; prtysum2 = 0
 
 do while lines(input.txt) > 0 
    /* part1 */
