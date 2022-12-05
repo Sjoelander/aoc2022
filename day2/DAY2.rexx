@@ -1,6 +1,5 @@
 /*REXX*/
-sum = 0
-sum2 = 0
+sum = 0; sum2 = 0
 results.A.X = 1 + 3; results2.A.X = 3 + 0 
 results.A.Y = 2 + 6; results2.A.Y = 1 + 3
 results.A.Z = 3 + 0; results2.A.Z = 2 + 6
