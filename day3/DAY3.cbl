@@ -43,8 +43,9 @@
                     END-IF
               END-READ
            END-PERFORM
-           DISPLAY PRIO-SUM-PART1
-           DISPLAY PRIO-SUM-PART2
+           
+           DISPLAY 'PART1: ' PRIO-SUM-PART1
+           DISPLAY 'PART2: ' PRIO-SUM-PART2
  
            CLOSE INPUT-FILE
 
