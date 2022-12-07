@@ -29,6 +29,7 @@
                  AT END 
                     SET INPUT-FILE-EOF TO TRUE
                  NOT AT END  
+                    *> for ASCII
                     COMPUTE PCHOICE-ORD = FUNCTION ORD(PLAYER-CHOICE) 
                        - FUNCTION ORD('X')
                     COMPUTE OCHOICE-ORD = FUNCTION ORD(OPPONENT-CHOICE) 
@@ -59,8 +60,8 @@
 
            CLOSE INPUT-FILE
 
-           DISPLAY SCORE-PART1
-           DISPLAY SCORE-PART2
+           DISPLAY 'PART1: ' SCORE-PART1
+           DISPLAY 'PART2: ' SCORE-PART2
            
            STOP RUN.
        END PROGRAM DAY2.
