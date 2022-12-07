@@ -1,5 +1,6 @@
 /*REXX*/
-sum = 0; sum2 = 0
+sum = 0
+sum2 = 0
 results.A.X = 1 + 3; results2.A.X = 3 + 0 
 results.A.Y = 2 + 6; results2.A.Y = 1 + 3
 results.A.Z = 3 + 0; results2.A.Z = 2 + 6
@@ -16,7 +17,7 @@ do while lines(input.txt) > 0
    sum2 += results2.o.p
 end
 
-say sum
-say sum2
+say "part1:" sum
+say "part2:" sum2
 
 exit 
