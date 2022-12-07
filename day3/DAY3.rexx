@@ -18,7 +18,7 @@ do while lines(input.txt) > 0
       do forever
          idx = verify(rucksacks.1, rucksacks.2, "M", j)
          char = substr(rucksacks.1,idx,1)
-         if verify(char,rucksacks.3, "M") = 0 then 
+         if verify(char,rucksacks.3, "M") == 0 then 
             j = idx + 1 
          else
             leave
@@ -27,10 +27,10 @@ do while lines(input.txt) > 0
    end
 end
 
-say prtysum
-say prtysum2
+say "part1:" prtysum
+say "part2:" prtysum2
 
-exit 0
+exit
 
 priority: Procedure
    parse arg char
