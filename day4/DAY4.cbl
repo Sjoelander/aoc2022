@@ -53,10 +53,11 @@
               END-READ
            END-PERFORM
            
-           DISPLAY OVERLAPS-FULLY-COUNTER
-           DISPLAY OVERLAPS-COUNTER
+           DISPLAY 'PART1: ' OVERLAPS-FULLY-COUNTER
+           DISPLAY 'PART2: ' OVERLAPS-COUNTER
  
            CLOSE INPUT-FILE
 
            STOP RUN.
+           
        END PROGRAM DAY4.
