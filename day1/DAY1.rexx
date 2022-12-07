@@ -1,6 +1,5 @@
 /*REXX*/
-sums = "0 0 0" 
-sum = 0
+sums = "0 0 0"; sum = 0
 do while lines(input.txt) > 0 
    incalories = linein(input.txt) 
    if incalories = ' ' then do
@@ -11,10 +10,10 @@ do while lines(input.txt) > 0
       sum += incalories
 end
 
-say word(sums, 3)
-say word(sums, 1) + word(sums, 2) + word(sums, 3)
+say "part1:" word(sums, 3)
+say "part2:" word(sums, 1) + word(sums, 2) + word(sums, 3)
 
-exit 0
+exit
 
 sortSums: procedure 
    arg sum, sums
