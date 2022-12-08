@@ -27,7 +27,7 @@ do i = paths.0 to 2 by -1
    p = paths.i 
    pp = strip(delword(p,words(p)))
    j = 0; k = 0;
-   do l = 1 by 1 while (j == 0 | k == 0)
+   do l = i by -1 while (j == 0 | k == 0)
       if paths.l = p then do
          j = l
       end
