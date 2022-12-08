@@ -13,4 +13,5 @@ Advent of Code 2022 - Solving in COBOL first and then in HLASM or Rexx when ther
 | Day 4  | [COBOL](https://github.com/Sjoelander/aoc2022/blob/main/day4/DAY4.cbl)  | [Rexx](https://github.com/Sjoelander/aoc2022/blob/main/day4/DAY4.rexx) | N/A |
 | Day 5  | N/A  | [Rexx](https://github.com/Sjoelander/aoc2022/blob/main/day5/DAY5.rexx) | N/A |
 | Day 6  | [COBOL](https://github.com/Sjoelander/aoc2022/blob/main/day6/DAY6.cbl)  | N/A | N/A |
-| Day 7  | N/A  | [Rexx](https://github.com/Sjoelander/aoc2022/blob/main/day5/DAY5.rexx) | N/A |
+| Day 7  | N/A  | [Rexx](https://github.com/Sjoelander/aoc2022/blob/main/day7/DAY7.rexx) | N/A |
+| Day 8  | [COBOL](https://github.com/Sjoelander/aoc2022/blob/main/day8/DAY8.cbl)  | N/A | N/A |
