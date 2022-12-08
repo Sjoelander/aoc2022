@@ -104,8 +104,7 @@
                    MOVE K TO D
 
                    COMPUTE SCORE = A * B * C * D
-                   COMPUTE MAX-SCORE = 
-                       FUNCTION MAX(MAX-SCORE, SCORE)
+                   COMPUTE MAX-SCORE = FUNCTION MAX(MAX-SCORE, SCORE)
 
                    *> Visible FROM either direction
                    IF NOT B1 OR NOT B2 OR NOT B3 OR NOT B4 THEN 
